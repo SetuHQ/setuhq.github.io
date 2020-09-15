@@ -8,18 +8,26 @@ export default function Home() {
                 <title>Open Source by Setu</title>
                 <link rel="icon" href="/favicon.png" />
             </Head>
-
             <main className={styles.main}>
                 <h1 className={styles.title}>Open Source</h1>
                 <h2 className={styles.description}>is our DNA</h2>
-                <div className={styles.grid}>
-                    <a href="/documentor" className={styles.card}>
-                        <h3>Documentor 📖</h3>
-                        <p>Document any project or API</p>
-                    </a>
-                </div>
+                <section>
+                    <div className={styles.grid}>
+                        <a href="/documentor" className={styles.card}>
+                            <h3>Documentor 📖</h3>
+                            <p>Document any project or API</p>
+                        </a>
+                        <a href="/documentor" className={styles.card}>
+                            <h3>Documentor 📖</h3>
+                            <p>Document any project or API</p>
+                        </a>
+                        <a href="/documentor" className={styles.card}>
+                            <h3>Documentor 📖</h3>
+                            <p>Document any project or API</p>
+                        </a>
+                    </div>
+                </section>
             </main>
-
             <footer className={styles.footer}>
                 <a href="https://setu.co" target="_blank">
                     <img
