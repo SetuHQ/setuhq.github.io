@@ -12,6 +12,7 @@ deploy:
     provider: pages # Informs Travis this is a deployment to GitHub Pages
     skip_cleanup: true # Prevents Travis from resetting the working directory made during the build
     github_token: $GITHUB_TOKEN # GitHub access token to use when pushing to the gh-pages branch
+    fqdn: 'opensource.setu.co' # Domain name to be used for GitHub page deployed
     local_dir: out # Directory to push to the gh-pages branch
     on:
         branch: master # Only deploy when the build is on master branch
