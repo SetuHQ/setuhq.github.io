@@ -25,6 +25,10 @@ export default function Home() {
                             <h3>Documentor</h3>
                             <p>Document any project or API</p>
                         </a>
+                        <a href="/documentor" className={styles.card}>
+                            <h3>Documentor</h3>
+                            <p>Document any project or API</p>
+                        </a>
                     </div>
                 </section>
             </main>
