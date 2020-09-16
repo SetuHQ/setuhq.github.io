@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Index.module.css';
+import styles from '../styles/Page.module.css';
 
 export default function Home() {
     return (
@@ -14,15 +14,15 @@ export default function Home() {
                 <section>
                     <div className={styles.grid}>
                         <a href="/documentor" className={styles.card}>
-                            <h3>Documentor 📖</h3>
+                            <h3>Documentor</h3>
                             <p>Document any project or API</p>
                         </a>
                         <a href="/documentor" className={styles.card}>
-                            <h3>Documentor 📖</h3>
+                            <h3>Documentor</h3>
                             <p>Document any project or API</p>
                         </a>
                         <a href="/documentor" className={styles.card}>
-                            <h3>Documentor 📖</h3>
+                            <h3>Documentor</h3>
                             <p>Document any project or API</p>
                         </a>
                     </div>
